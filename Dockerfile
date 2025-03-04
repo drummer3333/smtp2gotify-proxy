@@ -1,11 +1,11 @@
-FROM golang:1.14.4 as builder
-RUN git clone https://github.com/alash3al/smtp2http /go/src/build
+FROM golang:1.22 as builder
+RUN git clone https://github.com/drummer3333/smtp2gotify-proxy /go/src/build
 WORKDIR /go/src/build
 RUN go mod vendor
 ENV CGO_ENABLED=0
-RUN GOOS=linux go build -mod vendor -a -o smtp2http .
+RUN GOOS=linux go build -mod vendor -a -o smtp2gotify-proxy .
 
 FROM alpine:latest
 WORKDIR /root/
-COPY --from=builder /go/src/build/smtp2http /usr/bin/smtp2http
-ENTRYPOINT ["smtp2http"]
+COPY --from=builder /go/src/build/smtp2gotify-proxy /usr/bin/smtp2gotify-proxy
+ENTRYPOINT ["smtp2gotify-proxy"]
