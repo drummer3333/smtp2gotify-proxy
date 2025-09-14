@@ -3,7 +3,7 @@ module github.com/drummer3333/mail2gotify-proxy
 go 1.22
 
 require (
-	github.com/drummer3333/go-smtpsrv v0.0.0-20250304082122-25683fc8bd8d
+	github.com/drummer3333/go-smtpsrv v0.0.0-20250914213226-e92d2fa088d2
 	github.com/emersion/go-smtp v0.13.0
 	github.com/gotify/go-api-client/v2 v2.0.4
 )

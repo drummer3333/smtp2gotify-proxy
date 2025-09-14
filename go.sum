@@ -7,8 +7,8 @@ github.com/asaskevich/govalidator v0.0.0-20180720115003-f9ffefc3facf/go.mod h1:l
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docker/go-units v0.3.3/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=
-github.com/drummer3333/go-smtpsrv v0.0.0-20250304082122-25683fc8bd8d h1:iwuMFAbSVywQuU7c6C/bDjOoysc78NzJUydZNxZHbXQ=
-github.com/drummer3333/go-smtpsrv v0.0.0-20250304082122-25683fc8bd8d/go.mod h1:XQqQ+Z2GqmH+EIomXwrWcJPT6LGkCeUMJgKSsH/lWmQ=
+github.com/drummer3333/go-smtpsrv v0.0.0-20250914213226-e92d2fa088d2 h1:6eWIsWIvh8F5GiM7xFPdmOvPgbiZHfaf49pYZwlHnGQ=
+github.com/drummer3333/go-smtpsrv v0.0.0-20250914213226-e92d2fa088d2/go.mod h1:XQqQ+Z2GqmH+EIomXwrWcJPT6LGkCeUMJgKSsH/lWmQ=
 github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21 h1:OJyUGMJTzHTd1XQp98QTaHernxMYzRaOasRir9hUlFQ=
 github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21/go.mod h1:iL2twTeMvZnrg54ZoPDNfJaJaqy0xIQFuBdrLsmspwQ=
 github.com/emersion/go-smtp v0.13.0 h1:aC3Kc21TdfvXnuJXCQXuhnDXUldhc12qME/S7Y3Y94g=
